@@ -15,7 +15,7 @@ button{
     top: calc(50% - 25px);
     left: calc(50% - 60px);
     outline: none;
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
     background: transparent;
 }
 
@@ -38,4 +38,5 @@ a{
     right: 10px;
     bottom: 5px;
     text-decoration: none;
+    transition: 0.5 all ease;
 }
