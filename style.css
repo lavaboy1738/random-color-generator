@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    border: 2px solid black;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 60px);
+    outline: none;
+    transition: 0.3s all ease;
+    background: transparent;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+body{
+    background-color: #ffffff;
+}
