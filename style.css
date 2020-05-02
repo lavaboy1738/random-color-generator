@@ -30,3 +30,12 @@ button:active{
 body{
     background-color: #ffffff;
 }
+
+a{
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    text-decoration: none;
+}
